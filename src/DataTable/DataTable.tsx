@@ -442,7 +442,7 @@ function DataTable<T>(props: TableProps<T>): JSX.Element {
 									const expanderDisabled = !!(expandableRows && expandableRowDisabled && expandableRowDisabled(row));
 
 									return (
-										<RowWrapper key={id}>
+										<RowWrapper index={i} row={row} key={id}>
 											<Row
 												id={id}
 												key={id}

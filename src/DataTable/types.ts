@@ -116,7 +116,7 @@ export type TableProps<T> = {
 	 *  */
 	title?: string | React.ReactNode;
 
-	RowWrapper?: FC<{ children: ReactNode }>;
+	RowWrapper?: FC<{ children: ReactNode; index: number; row: T }>;
 };
 
 export type TableColumnBase = {
