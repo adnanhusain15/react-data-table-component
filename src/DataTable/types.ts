@@ -1,3 +1,4 @@
+import { FC, ReactNode } from 'react';
 import { Alignment, Direction, Media } from './constants';
 import { CSSObject } from 'styled-components';
 
@@ -114,6 +115,8 @@ export type TableProps<T> = {
 	 *  Shows and displays a header with a title
 	 *  */
 	title?: string | React.ReactNode;
+
+	RowWrapper?: FC<{ children: ReactNode }>;
 };
 
 export type TableColumnBase = {

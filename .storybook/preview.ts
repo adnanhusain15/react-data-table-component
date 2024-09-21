@@ -30,6 +30,7 @@ export const parameters = {
 				'Loading',
 				'*',
 				'Performance',
+				'RowWrapper',
 				['Optimization', '*'],
 				'Contributing',
 			],

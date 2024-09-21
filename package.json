@@ -18,7 +18,7 @@
     "react-data-table",
     "react-data-table-component"
   ],
-  "repository": "https://github.com/jbetancur/react-data-table-component",
+  "repository": "https://github.com/adnanhusain15/react-data-table-component.git",
   "author": "jbetancur",
   "license": "Apache-2.0",
   "prepublish": "tsc",
